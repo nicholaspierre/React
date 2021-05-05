@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item3b {
+            grid-area: sentiment;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'menu main main sentiment right right'
+                'menu footer footer footer footer footer';
+            grid-gap: 50px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="item2">Dashboard<br>Widget<br>Reviews<br>Customers<br>Online Analysis<br>Settings</div>
+        <div class="item3">Reviews</div>
+        <div class="item3b">Sentiment Analysis</div>
+        <div class="item4">Average Rating</div>
+        <div class="item5">Website Vistors</div>
+    </div>
+
+</body>
+
+</html>
