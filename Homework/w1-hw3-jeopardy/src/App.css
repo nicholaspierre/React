@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.Main-App {
+  background-color:rgb(53, 53, 252);
+}
+
+.question {
+  color: aqua;
+}
